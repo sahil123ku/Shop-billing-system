@@ -6,7 +6,7 @@ A Windows desktop app for grocery inventory, billing, expiry monitoring, custome
 
 ### Grocery store sign-in artwork
 
-![Kanpur Wale Guptajee grocery store sign-in artwork](assets/sahil-grocery-background.png)
+![Kanpur Wale Guptajee grocery store sign-in artwork](assets/Gupta-Grocery-Shop.png)
 
 ## Features
 
@@ -44,8 +44,8 @@ python login.py
 
 Default demo login:
 
-- Username: `sahilgupta420`
-- Password: `gaya-kanpur`
+- Username: `sahilgupta4391`
+- Password: `gaya@123`
 
 The login screen displays these credentials beneath the sign-in button. To reset a forgotten login, change `DEFAULT_LOGIN_USERNAME` and `DEFAULT_LOGIN_PASSWORD` near the top of `database.py`, save the file, close the app, and run `python login.py` again. The configured values are synced to the existing local account once; passwords are stored in the database as salted hashes.
 
