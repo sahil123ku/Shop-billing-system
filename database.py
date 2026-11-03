@@ -1,4 +1,4 @@
-"""SQLite storage and business rules for Kanpur Wale Guptajee Grocery Store."""
+"""SQLite storage and business rules for Gupta Grocery Store."""
 
 from __future__ import annotations
 
@@ -182,7 +182,7 @@ def format_receipt(
 ) -> str:
     """Format a compact customer receipt without exposing the saved phone number."""
     width = 46
-    lines = ["KANPUR WALE GUPTAJEE".center(width), "GROCERY STORE RECEIPT".center(width), "=" * width]
+    lines = ["GUPTA".center(width), "GROCERY STORE RECEIPT".center(width), "=" * width]
     for label, value in (
         ("Customer name", customer),
         ("Address", address or "—"),

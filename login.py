@@ -26,7 +26,7 @@ class SahilGroceryStoreApp:
         self.show_login()
 
     def _configure_window(self):
-        self.root.title("Guptajee Grocery Store")
+        self.root.title("Gupta Grocery Store")
         self.root.configure(background=PALE)
         self.root.geometry("1220x790")
         self.root.minsize(980, 650)
@@ -81,7 +81,7 @@ class SahilGroceryStoreApp:
 
     def show_login(self):
         self._clear_root()
-        self.root.title("Sign in ·  Guptajee")
+        self.root.title("Sign in ·  Gupta")
         shell = ttk.Frame(self.root, style="Page.TFrame", padding=34)
         shell.pack(fill="both", expand=True)
         shell.rowconfigure(0, weight=1)
@@ -142,7 +142,7 @@ class SahilGroceryStoreApp:
 
     def show_workspace(self):
         self._clear_root()
-        self.root.title(" Guptajee Grocery Store")
+        self.root.title(" Gupta Grocery Store")
         shell = ttk.Frame(self.root, style="Page.TFrame")
         shell.pack(fill="both", expand=True)
         shell.rowconfigure(1, weight=1)
@@ -151,7 +151,7 @@ class SahilGroceryStoreApp:
         topbar = ttk.Frame(shell, style="Topbar.TFrame", padding=(22, 12))
         topbar.grid(row=0, column=0, columnspan=2, sticky="ew")
         topbar.columnconfigure(0, weight=1)
-        ttk.Label(topbar, text=" Guptajee · Grocery Store", style="TopbarTitle.TLabel").grid(row=0, column=0, sticky="w")
+        ttk.Label(topbar, text=" Gupta · Grocery Store", style="TopbarTitle.TLabel").grid(row=0, column=0, sticky="w")
         ttk.Label(topbar, text=f"{date.today():%A, %d %B %Y}", background=WHITE, foreground=MUTED).grid(
             row=0, column=1, padx=(0, 18)
         )
