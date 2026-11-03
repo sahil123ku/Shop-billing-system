@@ -1,4 +1,4 @@
-# Kanpur Wale Guptajee Grocery Store
+# Gupta Grocery Store
 
 A Windows desktop app for grocery inventory, billing, expiry monitoring, customer records, and sales analysis. Built with Python's `tkinter` and SQLite; store data remains on the local computer.
 
@@ -6,7 +6,7 @@ A Windows desktop app for grocery inventory, billing, expiry monitoring, custome
 
 ### Grocery store sign-in artwork
 
-![Kanpur Wale Guptajee grocery store sign-in artwork](assets/Gupta-Grocery-Shop.png)
+![Gupta grocery store sign-in artwork](assets/Gupta-Grocery-Shop.png)
 
 ## Features
 
